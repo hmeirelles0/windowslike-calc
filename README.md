@@ -1,7 +1,7 @@
 <h1 align="center">Windowslike-Calculator 🧮</h1>
 
 ## OBJETIVO
-  Este projeto desenvolvido em C# teve como objetivo simular a calculadora nativa do Windows 11.
+  Este projeto desenvolvido em C# na IDE Visual Studio da Microsoft e teve como objetivo simular a calculadora nativa do Windows 11.
   
 ## COMO FUNCIONA?
   O projeto consiste em um formulário com vários elementos do tipo ```button``` que, quando pressionados, enviam strings correspondentes ao valor do texto de cada botão (ex.: button 2 => String "2") para uma classe que encapsula, realiza o cálculo selecionado pelo usuário e retorna o valor calculado para a classe principal.
@@ -20,7 +20,7 @@
 <h1 align="center">Windowslike-Calculator 🧮</h1>
 
 ## GOAL
-  This project was developed with the goal of simulating windows 11's calculator.
+  This project was developed using C# language with the Visual Studio IDE by Microsoft, with the goal of simulating windows 11's calculator.
   
 ## HOW DOES IT WORK?
   The project consists of a form with many ```button``` elements that, when clicked, send strings corresponding to their text value (eg.: button 2 => String "2") to another class that encapsulates, performs the chosen operation and returns the result to the main class.

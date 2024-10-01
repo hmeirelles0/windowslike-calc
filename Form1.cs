@@ -15,6 +15,7 @@ namespace prjCalculadoraRadio
         {
             InitializeComponent();
         }
+        int virgula = 0;
         Double v1, v2 = 0.0;
         String op = "";
         Calcula calc = new Calcula();
@@ -191,6 +192,22 @@ namespace prjCalculadoraRadio
             v2 = 0.0;
             op = "cos";
             lblDisplay.Text = (calc.CalcularRadio(v1, v2, op)).ToString();
+        }
+
+        private void btnVirg_Click(object sender, EventArgs e)
+        {
+            virgula = 0;
+            for (int i = 0; i <= lblDisplay.Text.Length - 1; i++)
+            {
+                if (lblDisplay.Text[i] == ',')
+                {
+                    virgula++;
+                }
+            }
+            if (virgula == 0)
+            {
+                lblDisplay.Text += ',';
+            }
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
